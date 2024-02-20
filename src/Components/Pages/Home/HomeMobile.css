@@ -1,0 +1,143 @@
+@media (max-width: 1000px) {
+    .sidebar {
+        display: none;
+    }
+    .content-container {
+        display: flex;
+        justify-content: center;
+    }
+    .navbar-inner {
+        width: 100%;
+    }
+    .profilePage{
+        padding: 0 2rem !important;
+    }
+    .profile{
+        padding: 5rem 1rem !important;
+    }
+    header .container{
+        padding: 0.5rem 0 !important;
+    }
+    .logo img{
+        width: 40% !important;
+      }
+      .profileFooter{
+        padding: 40px 0 5px 0;
+      }
+}
+@media (max-width: 853px) {
+    .homeLoginImage{
+        display: none;
+    }
+    .homeLoginFooter{
+        padding: 50px 0 20px 0;
+        width: 100%;
+    }
+    .loginFooterList{
+        width: 90%;
+    }
+    .loginFooterList{
+        padding-left:  0 !important;
+    }
+    .homeLogin{
+        padding: 0 !important;
+    }
+}
+
+@media (max-width: 640px) {
+    .content-container {
+        padding-top: 0px
+    }
+    .navbar-inner {
+        padding: 0 5px;
+    }
+    .content {
+        margin: 0;
+    }
+    .search-bar {
+        display: none;
+    }
+    .header {
+        border: none;
+        background: transparent;
+    }
+    .logo img{
+        width: 40% !important;
+      }
+    .margin-left{
+        margin-left: 12px;
+    }
+    .ant-modal-content{
+        height: 100vh;
+    }
+    .ant-modal-body {
+        height: 100vh;
+        /* background: linear-gradient(90deg, #ffffff 55%, #fafafa 45%); */
+      }
+    .editSubmission, .PostSubmission{
+        flex-direction: column;
+    }
+    .postEditing{
+        height: 90vh;
+        overflow: scroll;
+        border-radius: 0 !important;
+    }
+    .editBorder, .postBorder{
+        width: 100%;
+    }
+    .imageConvert{
+        overflow: scroll;
+        height: 96%;
+    }
+    .row {
+        margin-right: calc(-.1 * var(--bs-gutter-x)) !important;
+        margin-left: calc(-.1 * var(--bs-gutter-x)) !important;
+    }
+    .profile-pic img {
+        height: 26px;
+        width: 26px;
+      }
+      .profile-image img{
+        height: 100px !important;
+        width: 100px !important;
+      }
+      .profilePosts{
+        margin-top: -20px;
+    }
+    .profile-user-settings{
+        padding: 0 15px;
+    }
+    .profile-stats div{
+        padding: 8px 0;
+    }
+    .dragDropImage{
+        height: fit-content;
+    }
+
+}
+@media (max-width: 440px) {
+    .logo{
+        width: 120px;
+    }
+    .logo img{
+        width: 100% !important;
+      }
+}
+.profile{
+    padding: 5rem 1rem 0.7rem 1rem !important;
+}
+.ant-empty-image{
+    height: 80px !important;
+    display: flex;
+    justify-content: center;
+}
+.emptyAdd{
+    padding: 40px 0;
+}
+.profilePage{
+    padding: 0 0.1rem !important;
+}
+.imageOverlay:hover{
+    filter: brightness(0.7);
+    cursor: pointer;
+}

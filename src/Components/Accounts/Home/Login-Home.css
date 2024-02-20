@@ -1,0 +1,144 @@
+.homeLogin{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 25px 0 0 0;
+    overflow: hidden;
+    flex-direction: column;
+    background-color: #fafafa;
+    height: 100vh;
+}
+.accountSignup{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 25px 0 0 0;
+    overflow-x: hidden;
+    flex-direction: column;
+    background-color: #fafafa;
+    height: 100vh;
+}
+.homeLoginBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+}
+.accountBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    flex-direction: column;
+    margin-bottom: 40px;
+    padding-top: 50px;
+}
+.signUpText{
+    padding: 10px 0 14px 0;
+    font-size: 17px;
+    color: rgb(150, 150, 150);
+    font-weight: 500;
+}
+.SignUpPolicy{
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.562);
+}
+.loginImage{
+    height: 620px;
+}
+.homeLoginAuth{
+    width: 360px;
+    padding: 50px 35px 15px 35px !important;
+    text-align: center;
+    background-color: white !important;
+}
+.noAccount{
+    width: 360px;
+    padding: 23px 23px 10px !important;
+    text-align: center;
+    margin-top: 10px;
+    background-color: white !important;
+}
+.account-btn {
+    text-decoration: none;
+    color: #0095f6 !important;
+    font-weight: 500;
+}
+.logstyle{
+    padding: 10px;
+    border: 1px solid rgb(211, 211, 211);
+}
+.instagramLogo{
+    display: flex;
+    justify-content: center;
+}
+.instaLogo{
+    width: 180px;
+}
+.inputStyle:hover{
+    border: none !important;
+}
+.css-gjbq6i-MuiInputBase-root-MuiFilledInput-root:after{
+    border-bottom: none !important;
+}
+.css-gjbq6i-MuiInputBase-root-MuiFilledInput-root:before{
+    border-bottom: none !important;
+}
+.MuiInputBase-inputSizeSmall, .css-1mog9k0-MuiFormLabel-root-MuiInputLabel-root{
+    font-size: 12px !important;
+}
+
+.css-11qvwfa-MuiFormLabel-root-MuiInputLabel-root.Mui-focused{
+    color: rgba(0, 0, 0, 0.603) !important;
+    font-size: 12px;
+}
+.css-gjbq6i-MuiInputBase-root-MuiFilledInput-root:hover{
+    background-color: #f0f0f0 !important;
+}
+.css-gjbq6i-MuiInputBase-root-MuiFilledInput-root{
+    border-radius: 0 !important;
+}
+.MuiInputLabel-asterisk{
+    display: none !important;
+}
+.loginAuth{
+    width: 100%;
+}
+.loginInput{
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid rgb(182, 182, 182);
+    border-radius: 5px;
+}
+.loginButton{
+    margin-top: 25px;
+}
+.homeLoginFooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 12px;
+}
+.loginFooterList{
+    display: flex;
+    flex-wrap: wrap;
+    width: 72%;
+    justify-content: center;
+}
+.loginFooterList li{
+    list-style: none;
+    padding: 0 8px;
+    cursor: pointer;
+}
+.ant-select{
+    color: inherit !important;
+    font-size: 12px;
+}
+.ant-select-suffix svg{
+    fill: gray;
+}
+.ant-select-arrow{
+    color: inherit !important;
+}
